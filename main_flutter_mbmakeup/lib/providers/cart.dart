@@ -1,3 +1,5 @@
+//Esta clase se encarga de la funcionalidad de la pantalla del carrito de compras
+
 import 'package:flutter/foundation.dart';
 
 class CartItem {
@@ -21,12 +23,18 @@ class Cart with ChangeNotifier {
     return {..._items};
   }
 
-  int get itemCount {
-    return _items.length;
+//Funcion que permite que vaya incrementando el numero de productos en el carrito
+  int get totalItemCount {
+    int totalItemsInCart = 0;
+    for (var cartItem in _items.entries) {
+      totalItemsInCart = totalItemsInCart + cartItem.value.quantity;
+    }
+    return totalItemsInCart;
   }
 
   double get totalAmount {
-    var total = 0.0;
+    //funcion que nos regresa el total a pagar dependiendo de los articulos en el carro
+    var total = 0.00;
     _items.forEach((key, cartItem) {
       total += cartItem.price * cartItem.quantity;
     });
