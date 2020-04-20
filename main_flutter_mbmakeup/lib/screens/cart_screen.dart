@@ -1,6 +1,5 @@
 //ESTA ES LA PANTALLA DEL CARRITO DE COMPRA, ESTA EL TOTAL Y LOS PRODUCTOS AGREGADOS AL CARRITO
 //Se pueden modificar los textos, cantidad de decimales, etc.
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -29,7 +28,7 @@ class CartScreen extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     'Total',
-                    style: TextStyle(fontSize: 25),
+                    style: TextStyle(fontSize: 20),
                   ),
                   Spacer(),
                   Chip(
@@ -56,7 +55,7 @@ class CartScreen extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 10), //Tamaño Pantalla
+          SizedBox(height: 15), //Tamaño Pantalla
           Expanded(
             child: ListView.builder(
               itemCount: cart.items.length,
