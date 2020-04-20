@@ -8,7 +8,7 @@ class Products with ChangeNotifier {
       id: 'p1',
       title: 'Labial',
       description: 'Es un excelente color',
-      price: 80.55,
+      price: 10.00,
       imageUrl:
           'https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg',
     ),
@@ -16,7 +16,7 @@ class Products with ChangeNotifier {
       id: 'p2',
       title: 'Sombras',
       description: 'Descripcion del maquillaje 2',
-      price: 55.99,
+      price: 20.00,
       imageUrl:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Trousers%2C_dress_%28AM_1960.022-8%29.jpg/512px-Trousers%2C_dress_%28AM_1960.022-8%29.jpg',
     ),
@@ -24,7 +24,7 @@ class Products with ChangeNotifier {
       id: 'p3',
       title: 'Delineador',
       description: 'Descripcion del maquillaje 3',
-      price: 22.99,
+      price: 30.00,
       imageUrl:
           'https://live.staticflickr.com/4043/4438260868_cc79b3369d_z.jpg',
     ),
@@ -32,7 +32,7 @@ class Products with ChangeNotifier {
       id: 'p4',
       title: 'Rimel',
       description: 'Descripcion del maquillaje 4',
-      price: 10.99,
+      price: 40.00,
       imageUrl:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg',
     ),
