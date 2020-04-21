@@ -12,5 +12,7 @@ El siguiente proyecto tiene como finalidad el entregar una valor agregado a la v
 
 ## :camera: Capturas de la fase 1 de la aplicación. :camera:
 
-![](capturas_app/PANTALLA%20MAIN.png)
+![](capturas_app/PANTALLA%20MAIN.png) ![](capturas_app/Menu%20favoritos.png) 
 
+
+![](capturas_app/Solo%20favoritos.png) 
