@@ -17,7 +17,7 @@ El siguiente proyecto tiene como finalidad el entregar una valor agregado a la v
 
 ![](capturas_app/Solo%20favoritos.png) ![](capturas_app/Carrito%20de%20compras%con%favoritos.png)
 
-![](capturas_app/Pantala%20con%20menu%20desplegado.png) ![capturas_app/Pantalla%20con%20ordenes%20de%20favoritos.png]
+![](capturas_app/Pantala%20con%20menu%20desplegado.png) ![](capturas_app/Pantalla%20con%20ordenes%20de%20favoritos.png)
 
 # :hear_no_evil: AUTOR :speak_no_evil:
 ## David Iván Monroy Martínez :sunglasses:
